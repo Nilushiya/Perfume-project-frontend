@@ -9,7 +9,7 @@ const NewArrivals = () => {
         // const fetchNewArrivalsData = async () => {
         //     try {
         //       const response = await axios.get('/newArrivals'); 
-        //       setProducts(response.data);
+        //       setnewArrivals(response.data);
         //     } catch (error) {
         //       console.error('Error fetching NewArrivals:', error);
         //     }
@@ -38,7 +38,7 @@ const NewArrivals = () => {
     },[])
     const genders = [...new Set(newArrivals.map(newArrival => newArrivals.gender))];
     return (
-        <div className='newArrivals'>
+        <div className='newArrivalsItem'>
           {genders.map(gender => {
             const himNewArrivalGender = newArrivals.filter(newArrival => newArrival.gender === "A");
             const shuffledHimNewArrivals = himNewArrivalGender.sort(() => Math.random() - 0.5);

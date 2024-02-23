@@ -31,7 +31,7 @@ const HomeDp = () => {
     </Carousel.Item>
     <Carousel.Item>
       <img style={{height:'100vh'}} 
-        className="d-block w-100 image-fluid"
+        className="d-block w-100"
         src="https://switzerland-tour.com/storage/media/4-ForArticles/swiss-mountains.jpg"
         alt="Third slide"
       />
