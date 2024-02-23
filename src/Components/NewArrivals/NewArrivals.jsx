@@ -66,7 +66,7 @@ const NewArrivals = () => {
                 <div className="herNewArrivals">
                     <div key={gender} className='newArrival'>
                         <h4>NEW ARRIVALS</h4>
-                        <h2>FOR HIM</h2>
+                        <h2>FOR HER</h2>
                         <div className="row d-flex justify-content-center align-items-center m-0">
                         {shuffledHerNewArrivals
                             .slice(0, 3)
